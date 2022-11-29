@@ -6,12 +6,12 @@
 
 Console.WriteLine("Введите день недели от 1 до 7:");
 int a = Convert.ToInt32(Console.ReadLine());
-while( a <1| a>7)
+while (a < 1 | a > 7)
 {
     Console.WriteLine("В неделе семь дней, попробуйте снова?");
-    a=Convert.ToInt32(Console.ReadLine());
+    a = Convert.ToInt32(Console.ReadLine());
 }
-if ( a==6| a==7)
+if (a == 6 | a == 7)
 {
     Console.WriteLine("Выходной день.");
 }
